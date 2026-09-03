@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-05T13:35:31.870Z",
+  "serviceVersion": "full-catalog-videos-1",
+  "catalogue": {
+    "totalBatches": 19902,
+    "verifiedCompleteBatches": 0,
+    "leasedBatches": 0,
+    "pendingBatches": 19902,
+    "revalidationRemaining": 19902,
+    "completePages": 0,
+    "pendingPages": 4,
+    "historicalSeedSchedules": 659647,
+    "historicalSeedPlacements": 659493,
+    "uniqueSchedules": 669169,
+    "placements": 669049
+  },
+  "proxies": {
+    "qualifiedGuest": 0,
+    "qualifiedAccount": 0,
+    "activeLeases": 0
+  },
+  "rates": {
+    "batchesPerHour": 0,
+    "schedulesPerHour": 0,
+    "windowHours": 0.016666666666666666
+  },
+  "eta": {
+    "status": "unavailable",
+    "seconds": null,
+    "projectedAt": null,
+    "confidence": "unknown"
+  },
+  "backup": {
+    "status": "healthy",
+    "lastVerifiedAt": "2026-09-05T13:34:32.361Z",
+    "ageSeconds": 59,
+    "redundancy": 2,
+    "verificationMode": "inventory"
+  },
+  "runtime": {
+    "uptimeSeconds": 4928,
+    "restarts": 0
+  }
+}

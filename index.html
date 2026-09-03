@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>PWThor public progress</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <p class="eyebrow">Public progress</p>
+        <h1>Catalogue crawl</h1>
+      </div>
+      <p id="connection" class="state loading" role="status" aria-live="polite">Loading</p>
+    </header>
+
+    <section class="hero" aria-labelledby="progress-heading">
+      <div class="section-heading">
+        <h2 id="progress-heading">Batch progress</h2>
+        <strong id="progress-percent">—</strong>
+      </div>
+      <progress id="progress" max="100" value="0" aria-labelledby="progress-heading" aria-describedby="progress-detail">0%</progress>
+      <p id="progress-detail" class="muted">Waiting for current status</p>
+    </section>
+
+    <section aria-labelledby="catalogue-heading">
+      <h2 id="catalogue-heading">Catalogue</h2>
+      <dl class="metrics">
+        <div><dt>Verified complete batches</dt><dd id="complete-batches">—</dd></div>
+        <div><dt>Pending batches</dt><dd id="pending-batches">—</dd></div>
+        <div><dt>Leased batches</dt><dd id="leased-batches">—</dd></div>
+        <div><dt>Revalidation remaining</dt><dd id="revalidation-remaining">—</dd></div>
+        <div><dt>Complete pages</dt><dd id="complete-pages">—</dd></div>
+        <div><dt>Pending pages</dt><dd id="pending-pages">—</dd></div>
+        <div><dt>Historical seed schedules</dt><dd id="historical-seed-schedules">—</dd></div>
+        <div><dt>Historical seed placements</dt><dd id="historical-seed-placements">—</dd></div>
+        <div><dt>Unique schedules</dt><dd id="unique-schedules">—</dd></div>
+        <div><dt>Placements</dt><dd id="placements">—</dd></div>
+      </dl>
+    </section>
+
+    <div class="columns">
+      <section aria-labelledby="rates-heading">
+        <h2 id="rates-heading">Recent rates</h2>
+        <dl class="metrics compact">
+          <div><dt>Batches / hour</dt><dd id="batch-rate">—</dd></div>
+          <div><dt>Schedules / hour</dt><dd id="schedule-rate">—</dd></div>
+          <div><dt>Window</dt><dd id="rate-window">—</dd></div>
+        </dl>
+      </section>
+
+      <section aria-labelledby="health-heading">
+        <h2 id="health-heading">Health</h2>
+        <dl class="metrics compact">
+          <div><dt>ETA</dt><dd id="eta">—</dd></div>
+          <div><dt>ETA confidence</dt><dd id="eta-confidence">—</dd></div>
+          <div><dt>Backup</dt><dd id="backup">—</dd></div>
+          <div><dt>Qualified proxies</dt><dd id="qualified-proxies">—</dd></div>
+          <div><dt>Active leases</dt><dd id="active-leases">—</dd></div>
+        </dl>
+      </section>
+    </div>
+
+    <footer>
+      <p>Last update: <time id="last-update">—</time></p>
+      <p id="version">Service version: —</p>
+    </footer>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

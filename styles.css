@@ -1,0 +1,46 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #edf4f1;
+  background: #09110f;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: radial-gradient(circle at top, #18352d 0, #09110f 32rem); }
+main { width: min(70rem, calc(100% - 2rem)); margin: 0 auto; padding: 3rem 0; }
+header, .section-heading { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+h1, h2, p { margin-top: 0; }
+h1 { margin-bottom: 0; font-size: clamp(2rem, 7vw, 4.5rem); letter-spacing: -.05em; }
+h2 { margin-bottom: 1rem; font-size: 1rem; letter-spacing: .06em; text-transform: uppercase; color: #b8cbc4; }
+.eyebrow { margin-bottom: .35rem; color: #71e0b3; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; }
+.hero, section:not(.hero) { margin-top: 2rem; padding: clamp(1.25rem, 4vw, 2rem); border: 1px solid #29483e; border-radius: 1rem; background: rgb(10 25 21 / 82%); }
+.section-heading strong { font-size: 2rem; color: #71e0b3; }
+progress { width: 100%; height: 1.2rem; overflow: hidden; border: 0; border-radius: 1rem; background: #1f342d; }
+progress::-webkit-progress-bar { background: #1f342d; }
+progress::-webkit-progress-value { background: #71e0b3; }
+progress::-moz-progress-bar { background: #71e0b3; }
+.muted, footer { color: #a7bab3; }
+.hero .muted { margin: .75rem 0 0; }
+.metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: .75rem; margin: 0; }
+.metrics div { min-width: 0; padding: 1rem; border-radius: .75rem; background: #132721; }
+dt { color: #a7bab3; font-size: .82rem; }
+dd { margin: .35rem 0 0; font-size: 1.45rem; font-weight: 700; overflow-wrap: anywhere; }
+.compact { grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); }
+.columns { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+.state { flex: none; margin: 0; padding: .5rem .8rem; border-radius: 2rem; background: #26443a; }
+.state.current { color: #9bf0cd; }
+.state.stale { color: #ffd58a; background: #493a1f; }
+.state.offline { color: #ffb5b5; background: #4c2626; }
+footer { display: flex; justify-content: space-between; gap: 1rem; padding: 1.5rem .25rem 0; font-size: .9rem; }
+footer p { margin-bottom: 0; }
+
+@media (max-width: 44rem) {
+  main { padding-top: 1.5rem; }
+  header { align-items: flex-start; }
+  .columns { grid-template-columns: 1fr; gap: 0; }
+  footer { display: block; }
+  footer p + p { margin-top: .35rem; }
+}
+
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
