@@ -1,0 +1,3563 @@
+{
+  "schemaVersion": 2,
+  "scope": "all-metadata",
+  "generatedAt": "2026-09-15T00:42:39.868Z",
+  "runtime": {
+    "state": "active",
+    "phase": "collecting",
+    "version": "v77",
+    "startedAt": "2026-09-14T22:33:48.000Z",
+    "progressAt": "2026-09-15T00:42:14.433Z",
+    "activeJobs": 24,
+    "activeTransports": 22,
+    "qualifiedTransports": 67,
+    "questionTransports": 3,
+    "productiveRps30s": 9.4,
+    "sourcePauseUntil": null
+  },
+  "summary": {
+    "knownRemainingJobs": 787286,
+    "pendingJobs": 781527,
+    "activeJobs": 24,
+    "blockedJobs": 5735,
+    "availableDatasets": 7,
+    "missingDatasets": 0
+  },
+  "datasets": [
+    {
+      "id": "videos",
+      "available": true,
+      "state": "complete",
+      "discovery": "complete",
+      "jobs": {
+        "total": 152303,
+        "complete": 152303,
+        "pending": 0,
+        "active": 0,
+        "blocked": 0,
+        "remaining": 0,
+        "ready": 0
+      },
+      "counts": {
+        "records": 4886412,
+        "placements": 4886814,
+        "metadata": 4886412,
+        "papers": null,
+        "questions": null,
+        "batchesComplete": null,
+        "batchesTotal": null,
+        "subjectsComplete": null,
+        "subjectsTotal": null,
+        "topicsDiscovered": null,
+        "topicListsComplete": null,
+        "emptyTopics": null,
+        "attachmentReferences": null,
+        "unresolvedReferences": null,
+        "deferredBodyReferences": null,
+        "totalSubjectiveFilterBatches": null,
+        "completedSubjectiveFilterBatches": null,
+        "completedSubjectiveLists": null,
+        "subjectivePlacements": null,
+        "subjectiveTestsDiscovered": null
+      },
+      "productiveRps30s": null,
+      "issues": [],
+      "nextRetryAt": null
+    },
+    {
+      "id": "documents",
+      "available": true,
+      "state": "waiting",
+      "discovery": "complete",
+      "jobs": {
+        "total": 284726,
+        "complete": 284714,
+        "pending": 10,
+        "active": 0,
+        "blocked": 2,
+        "remaining": 12,
+        "ready": 0
+      },
+      "counts": {
+        "records": 6202155,
+        "placements": 6202884,
+        "metadata": null,
+        "papers": null,
+        "questions": null,
+        "batchesComplete": 19894,
+        "batchesTotal": 19902,
+        "subjectsComplete": null,
+        "subjectsTotal": null,
+        "topicsDiscovered": null,
+        "topicListsComplete": null,
+        "emptyTopics": null,
+        "attachmentReferences": 7573419,
+        "unresolvedReferences": 134,
+        "deferredBodyReferences": null,
+        "totalSubjectiveFilterBatches": null,
+        "completedSubjectiveFilterBatches": null,
+        "completedSubjectiveLists": null,
+        "subjectivePlacements": null,
+        "subjectiveTestsDiscovered": null
+      },
+      "productiveRps30s": 0,
+      "issues": [
+        {
+          "code": "HTTP_404",
+          "count": 2
+        }
+      ],
+      "nextRetryAt": "2026-09-15T00:43:09.445Z"
+    },
+    {
+      "id": "DppVideos",
+      "available": true,
+      "state": "blocked",
+      "discovery": "complete",
+      "jobs": {
+        "total": 152310,
+        "complete": 152300,
+        "pending": 0,
+        "active": 0,
+        "blocked": 10,
+        "remaining": 10,
+        "ready": 0
+      },
+      "counts": {
+        "records": 180091,
+        "placements": 180091,
+        "metadata": null,
+        "papers": null,
+        "questions": null,
+        "batchesComplete": null,
+        "batchesTotal": null,
+        "subjectsComplete": null,
+        "subjectsTotal": null,
+        "topicsDiscovered": null,
+        "topicListsComplete": null,
+        "emptyTopics": null,
+        "attachmentReferences": null,
+        "unresolvedReferences": null,
+        "deferredBodyReferences": null,
+        "totalSubjectiveFilterBatches": null,
+        "completedSubjectiveFilterBatches": null,
+        "completedSubjectiveLists": null,
+        "subjectivePlacements": null,
+        "subjectiveTestsDiscovered": null
+      },
+      "productiveRps30s": 0,
+      "issues": [
+        {
+          "code": "HTTP_404",
+          "count": 10
+        }
+      ],
+      "nextRetryAt": "2026-09-15T09:53:28.698Z"
+    },
+    {
+      "id": "programmes",
+      "available": true,
+      "state": "active",
+      "discovery": "incomplete",
+      "jobs": {
+        "total": 144301,
+        "complete": 83778,
+        "pending": 60454,
+        "active": 6,
+        "blocked": 63,
+        "remaining": 60523,
+        "ready": 60425
+      },
+      "counts": {
+        "records": 546353,
+        "placements": null,
+        "metadata": null,
+        "papers": null,
+        "questions": null,
+        "batchesComplete": null,
+        "batchesTotal": null,
+        "subjectsComplete": null,
+        "subjectsTotal": null,
+        "topicsDiscovered": 127333,
+        "topicListsComplete": 66949,
+        "emptyTopics": null,
+        "attachmentReferences": null,
+        "unresolvedReferences": null,
+        "deferredBodyReferences": null,
+        "totalSubjectiveFilterBatches": null,
+        "completedSubjectiveFilterBatches": null,
+        "completedSubjectiveLists": null,
+        "subjectivePlacements": null,
+        "subjectiveTestsDiscovered": null
+      },
+      "productiveRps30s": 2.1666666666666665,
+      "issues": [
+        {
+          "code": "LIBRARY_PAGINATION_DUPLICATE",
+          "count": 1
+        },
+        {
+          "code": "PROGRAMME_SUBJECT_DISCOVERY_UNRESOLVED",
+          "count": 62
+        }
+      ],
+      "nextRetryAt": null
+    },
+    {
+      "id": "tests",
+      "available": true,
+      "state": "active",
+      "discovery": "growing",
+      "jobs": {
+        "total": 276021,
+        "complete": 57462,
+        "pending": 214256,
+        "active": 6,
+        "blocked": 4297,
+        "remaining": 218559,
+        "ready": 214349
+      },
+      "counts": {
+        "records": null,
+        "placements": 487679,
+        "metadata": 72894,
+        "papers": 1359,
+        "questions": 129803,
+        "batchesComplete": 19902,
+        "batchesTotal": 19902,
+        "subjectsComplete": null,
+        "subjectsTotal": null,
+        "topicsDiscovered": null,
+        "topicListsComplete": null,
+        "emptyTopics": null,
+        "attachmentReferences": null,
+        "unresolvedReferences": null,
+        "deferredBodyReferences": null,
+        "totalSubjectiveFilterBatches": 19902,
+        "completedSubjectiveFilterBatches": 5935,
+        "completedSubjectiveLists": 715,
+        "subjectivePlacements": 48644,
+        "subjectiveTestsDiscovered": 43180
+      },
+      "productiveRps30s": 1.5333333333333334,
+      "issues": [
+        {
+          "code": "HTTP_400",
+          "count": 10
+        },
+        {
+          "code": "HTTP_404",
+          "count": 4280
+        },
+        {
+          "code": "TEST_QUESTION_COUNT_MISMATCH",
+          "count": 6
+        },
+        {
+          "code": "TEST_SOURCE_REVISION_CHANGED",
+          "count": 1
+        }
+      ],
+      "nextRetryAt": "2026-09-15T00:42:30.569Z"
+    },
+    {
+      "id": "DppQuiz",
+      "available": true,
+      "state": "active",
+      "discovery": "growing",
+      "jobs": {
+        "total": 659539,
+        "complete": 164761,
+        "pending": 493409,
+        "active": 6,
+        "blocked": 1363,
+        "remaining": 494778,
+        "ready": 493452
+      },
+      "counts": {
+        "records": null,
+        "placements": 106045,
+        "metadata": 6179,
+        "papers": 5227,
+        "questions": 60903,
+        "batchesComplete": null,
+        "batchesTotal": null,
+        "subjectsComplete": 113522,
+        "subjectsTotal": 132408,
+        "topicsDiscovered": 1051457,
+        "topicListsComplete": 26110,
+        "emptyTopics": 590890,
+        "attachmentReferences": null,
+        "unresolvedReferences": null,
+        "deferredBodyReferences": null,
+        "totalSubjectiveFilterBatches": null,
+        "completedSubjectiveFilterBatches": null,
+        "completedSubjectiveLists": null,
+        "subjectivePlacements": null,
+        "subjectiveTestsDiscovered": null
+      },
+      "productiveRps30s": 2.8333333333333335,
+      "issues": [
+        {
+          "code": "DPP_RESOLVED_CONTEXT_MISMATCH",
+          "count": 2
+        },
+        {
+          "code": "HTTP_400",
+          "count": 33
+        },
+        {
+          "code": "HTTP_404",
+          "count": 450
+        },
+        {
+          "code": "INVALID_DPP_QUIZ_MEASURE",
+          "count": 16
+        },
+        {
+          "code": "TEST_QUESTION_COUNT_MISMATCH",
+          "count": 76
+        },
+        {
+          "code": "TEST_QUESTION_SOURCE_UNAVAILABLE",
+          "count": 786
+        }
+      ],
+      "nextRetryAt": "2026-09-15T00:42:43.210Z"
+    },
+    {
+      "id": "announcements",
+      "available": true,
+      "state": "active",
+      "discovery": "growing",
+      "jobs": {
+        "total": 19902,
+        "complete": 6498,
+        "pending": 13398,
+        "active": 6,
+        "blocked": 0,
+        "remaining": 13404,
+        "ready": 13396
+      },
+      "counts": {
+        "records": 1679514,
+        "placements": null,
+        "metadata": null,
+        "papers": null,
+        "questions": null,
+        "batchesComplete": 6498,
+        "batchesTotal": 19902,
+        "subjectsComplete": null,
+        "subjectsTotal": null,
+        "topicsDiscovered": null,
+        "topicListsComplete": null,
+        "emptyTopics": null,
+        "attachmentReferences": 1662074,
+        "unresolvedReferences": 0,
+        "deferredBodyReferences": 211001,
+        "totalSubjectiveFilterBatches": null,
+        "completedSubjectiveFilterBatches": null,
+        "completedSubjectiveLists": null,
+        "subjectivePlacements": null,
+        "subjectiveTestsDiscovered": null
+      },
+      "productiveRps30s": 2.6333333333333333,
+      "issues": [],
+      "nextRetryAt": null
+    }
+  ],
+  "coverage": [
+    {
+      "id": "subjective-tests",
+      "state": "unvalidated"
+    },
+    {
+      "id": "separate-test-site",
+      "state": "unvalidated"
+    }
+  ],
+  "backup": {
+    "status": "healthy",
+    "phase": "complete",
+    "capturedAt": "2026-09-14T23:31:36.458Z",
+    "uploadedAt": "2026-09-14T23:59:12.975Z"
+  },
+  "milestones": {
+    "collection": "in-progress",
+    "finalArchive": "pending",
+    "shutdown": "pending"
+  },
+  "updates": {
+    "at": "2026-09-14T23:01:32.447Z",
+    "items": [
+      {
+        "id": "dpp-page-policy",
+        "state": "deployed"
+      },
+      {
+        "id": "fresh-question-priority",
+        "state": "deployed"
+      },
+      {
+        "id": "remaining-dashboard",
+        "state": "deployed"
+      },
+      {
+        "id": "queue-integrity-recovery",
+        "state": "deployed"
+      }
+    ]
+  },
+  "history": [
+    {
+      "at": "2026-09-14T16:41:31.530Z",
+      "phase": "collecting",
+      "productiveRps30s": 7.633333333333334,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152299,
+          "remainingJobs": 11,
+          "records": 179664,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 54982,
+          "remainingJobs": 89319,
+          "records": 545575,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50720,
+          "remainingJobs": 161502,
+          "records": null,
+          "metadata": 59045,
+          "papers": 1267
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 146321,
+          "remainingJobs": 470592,
+          "records": null,
+          "metadata": 5430,
+          "papers": 4446
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 4526,
+          "remainingJobs": 15376,
+          "records": 1165771,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T16:51:23.590Z",
+      "phase": "collecting",
+      "productiveRps30s": 9.5,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152299,
+          "remainingJobs": 11,
+          "records": 179664,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 56108,
+          "remainingJobs": 88193,
+          "records": 545575,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50721,
+          "remainingJobs": 161501,
+          "records": null,
+          "metadata": 59757,
+          "papers": 1268
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 146975,
+          "remainingJobs": 470946,
+          "records": null,
+          "metadata": 5556,
+          "papers": 4571
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 4600,
+          "remainingJobs": 15302,
+          "records": 1187208,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T17:04:05.628Z",
+      "phase": "collecting",
+      "productiveRps30s": 5.1,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152299,
+          "remainingJobs": 11,
+          "records": 179664,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 57064,
+          "remainingJobs": 87237,
+          "records": 545575,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50724,
+          "remainingJobs": 161498,
+          "records": null,
+          "metadata": 60760,
+          "papers": 1271
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 147527,
+          "remainingJobs": 471764,
+          "records": null,
+          "metadata": 5609,
+          "papers": 4622
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 4666,
+          "remainingJobs": 15236,
+          "records": 1208737,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T17:14:19.814Z",
+      "phase": "collecting",
+      "productiveRps30s": 5.8,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152299,
+          "remainingJobs": 11,
+          "records": 179664,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 57731,
+          "remainingJobs": 86570,
+          "records": 545575,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50724,
+          "remainingJobs": 161498,
+          "records": null,
+          "metadata": 61221,
+          "papers": 1271
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 147901,
+          "remainingJobs": 472102,
+          "records": null,
+          "metadata": 5618,
+          "papers": 4632
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 4704,
+          "remainingJobs": 15198,
+          "records": 1219633,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T17:24:20.035Z",
+      "phase": "collecting",
+      "productiveRps30s": 11.466666666666667,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152299,
+          "remainingJobs": 11,
+          "records": 179664,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 58529,
+          "remainingJobs": 85772,
+          "records": 545575,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50725,
+          "remainingJobs": 161497,
+          "records": null,
+          "metadata": 61666,
+          "papers": 1272
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 148348,
+          "remainingJobs": 473026,
+          "records": null,
+          "metadata": 5681,
+          "papers": 4692
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 4761,
+          "remainingJobs": 15141,
+          "records": 1235175,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T17:34:21.446Z",
+      "phase": "collecting",
+      "productiveRps30s": 4.8,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152299,
+          "remainingJobs": 11,
+          "records": 179664,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 59620,
+          "remainingJobs": 84681,
+          "records": 545575,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50725,
+          "remainingJobs": 161497,
+          "records": null,
+          "metadata": 62420,
+          "papers": 1272
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 148888,
+          "remainingJobs": 474038,
+          "records": null,
+          "metadata": 5721,
+          "papers": 4740
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 4826,
+          "remainingJobs": 15076,
+          "records": 1253729,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T17:44:28.033Z",
+      "phase": "collecting",
+      "productiveRps30s": 6,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152299,
+          "remainingJobs": 11,
+          "records": 179664,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 60364,
+          "remainingJobs": 83937,
+          "records": 545575,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50725,
+          "remainingJobs": 161497,
+          "records": null,
+          "metadata": 62726,
+          "papers": 1272
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 149316,
+          "remainingJobs": 474721,
+          "records": null,
+          "metadata": 5734,
+          "papers": 4766
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 4899,
+          "remainingJobs": 15003,
+          "records": 1269375,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T17:54:27.951Z",
+      "phase": "unknown",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152299,
+          "remainingJobs": 11,
+          "records": 179664,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 60379,
+          "remainingJobs": 83922,
+          "records": 545575,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50725,
+          "remainingJobs": 161497,
+          "records": null,
+          "metadata": 62735,
+          "papers": 1272
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 149320,
+          "remainingJobs": 474743,
+          "records": null,
+          "metadata": 5735,
+          "papers": 4766
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 4900,
+          "remainingJobs": 15002,
+          "records": 1269603,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T18:04:28.233Z",
+      "phase": "recovering",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152299,
+          "remainingJobs": 11,
+          "records": 179664,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 60379,
+          "remainingJobs": 83922,
+          "records": 545575,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50725,
+          "remainingJobs": 161497,
+          "records": null,
+          "metadata": 62735,
+          "papers": 1272
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 149320,
+          "remainingJobs": 474743,
+          "records": null,
+          "metadata": 5735,
+          "papers": 4766
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 4900,
+          "remainingJobs": 15002,
+          "records": 1269603,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T18:14:28.717Z",
+      "phase": "recovering",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152299,
+          "remainingJobs": 11,
+          "records": 179664,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 60379,
+          "remainingJobs": 83922,
+          "records": 545575,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50725,
+          "remainingJobs": 161497,
+          "records": null,
+          "metadata": 62735,
+          "papers": 1272
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 149320,
+          "remainingJobs": 474743,
+          "records": null,
+          "metadata": 5735,
+          "papers": 4766
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 4900,
+          "remainingJobs": 15002,
+          "records": 1269603,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T18:24:28.794Z",
+      "phase": "recovering",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152299,
+          "remainingJobs": 11,
+          "records": 179664,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 60379,
+          "remainingJobs": 83922,
+          "records": 545575,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50725,
+          "remainingJobs": 161497,
+          "records": null,
+          "metadata": 62735,
+          "papers": 1272
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 149320,
+          "remainingJobs": 474743,
+          "records": null,
+          "metadata": 5735,
+          "papers": 4766
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 4900,
+          "remainingJobs": 15002,
+          "records": 1269603,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T18:33:44.296Z",
+      "phase": "collecting",
+      "productiveRps30s": 18.133333333333333,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152299,
+          "remainingJobs": 11,
+          "records": 179664,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 61022,
+          "remainingJobs": 83279,
+          "records": 545575,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50731,
+          "remainingJobs": 161491,
+          "records": null,
+          "metadata": 63360,
+          "papers": 1278
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 149682,
+          "remainingJobs": 475531,
+          "records": null,
+          "metadata": 5768,
+          "papers": 4827
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 4972,
+          "remainingJobs": 14930,
+          "records": 1283420,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T18:43:44.346Z",
+      "phase": "collecting",
+      "productiveRps30s": 7.966666666666667,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152299,
+          "remainingJobs": 11,
+          "records": 179664,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 62506,
+          "remainingJobs": 81795,
+          "records": 545575,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50731,
+          "remainingJobs": 161491,
+          "records": null,
+          "metadata": 64549,
+          "papers": 1278
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 150611,
+          "remainingJobs": 476459,
+          "records": null,
+          "metadata": 5799,
+          "papers": 4905
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5057,
+          "remainingJobs": 14845,
+          "records": 1307462,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T18:53:44.349Z",
+      "phase": "collecting",
+      "productiveRps30s": 8.666666666666666,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 63608,
+          "remainingJobs": 80693,
+          "records": 545575,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50740,
+          "remainingJobs": 161482,
+          "records": null,
+          "metadata": 65382,
+          "papers": 1287
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 151168,
+          "remainingJobs": 477146,
+          "records": null,
+          "metadata": 5816,
+          "papers": 4928
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5109,
+          "remainingJobs": 14793,
+          "records": 1323685,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T19:04:01.134Z",
+      "phase": "collecting",
+      "productiveRps30s": 5.166666666666667,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 64232,
+          "remainingJobs": 80069,
+          "records": 545852,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50745,
+          "remainingJobs": 161477,
+          "records": null,
+          "metadata": 66161,
+          "papers": 1292
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 151714,
+          "remainingJobs": 478224,
+          "records": null,
+          "metadata": 5828,
+          "papers": 4945
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5167,
+          "remainingJobs": 14735,
+          "records": 1338777,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T19:14:05.980Z",
+      "phase": "collecting",
+      "productiveRps30s": 8.133333333333333,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 64560,
+          "remainingJobs": 79741,
+          "records": 546305,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50748,
+          "remainingJobs": 161474,
+          "records": null,
+          "metadata": 66652,
+          "papers": 1295
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 152414,
+          "remainingJobs": 478749,
+          "records": null,
+          "metadata": 5837,
+          "papers": 4953
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5225,
+          "remainingJobs": 14677,
+          "records": 1351227,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T19:23:59.743Z",
+      "phase": "collecting",
+      "productiveRps30s": 8.6,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 65344,
+          "remainingJobs": 78957,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50750,
+          "remainingJobs": 161472,
+          "records": null,
+          "metadata": 67315,
+          "papers": 1297
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 153185,
+          "remainingJobs": 479330,
+          "records": null,
+          "metadata": 5843,
+          "papers": 4956
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5286,
+          "remainingJobs": 14616,
+          "records": 1363445,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T19:31:11.095Z",
+      "phase": "collecting",
+      "productiveRps30s": 8,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 65926,
+          "remainingJobs": 78375,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50750,
+          "remainingJobs": 161472,
+          "records": null,
+          "metadata": 67605,
+          "papers": 1297
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 153442,
+          "remainingJobs": 480033,
+          "records": null,
+          "metadata": 5847,
+          "papers": 4956
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5332,
+          "remainingJobs": 14570,
+          "records": 1373691,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T19:41:11.447Z",
+      "phase": "collecting",
+      "productiveRps30s": 20.1,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 66536,
+          "remainingJobs": 77765,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50750,
+          "remainingJobs": 161472,
+          "records": null,
+          "metadata": 68240,
+          "papers": 1297
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 153886,
+          "remainingJobs": 481071,
+          "records": null,
+          "metadata": 5857,
+          "papers": 4966
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5376,
+          "remainingJobs": 14526,
+          "records": 1385806,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T19:51:29.743Z",
+      "phase": "collecting",
+      "productiveRps30s": 8.6,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 68062,
+          "remainingJobs": 76239,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50755,
+          "remainingJobs": 161467,
+          "records": null,
+          "metadata": 69507,
+          "papers": 1302
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 154654,
+          "remainingJobs": 483313,
+          "records": null,
+          "metadata": 5865,
+          "papers": 4974
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5452,
+          "remainingJobs": 14450,
+          "records": 1408296,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T20:01:30.299Z",
+      "phase": "collecting",
+      "productiveRps30s": 6.6,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 68835,
+          "remainingJobs": 75466,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50758,
+          "remainingJobs": 161464,
+          "records": null,
+          "metadata": 70008,
+          "papers": 1305
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 155089,
+          "remainingJobs": 483968,
+          "records": null,
+          "metadata": 5881,
+          "papers": 4991
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5501,
+          "remainingJobs": 14401,
+          "records": 1424714,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T20:11:30.306Z",
+      "phase": "collecting",
+      "productiveRps30s": 6.666666666666667,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 69775,
+          "remainingJobs": 74526,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50758,
+          "remainingJobs": 161464,
+          "records": null,
+          "metadata": 70574,
+          "papers": 1305
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 155446,
+          "remainingJobs": 484801,
+          "records": null,
+          "metadata": 5901,
+          "papers": 5009
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5582,
+          "remainingJobs": 14320,
+          "records": 1441334,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T20:21:53.877Z",
+      "phase": "collecting",
+      "productiveRps30s": 10.833333333333334,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 70759,
+          "remainingJobs": 73542,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50772,
+          "remainingJobs": 161450,
+          "records": null,
+          "metadata": 71370,
+          "papers": 1319
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 155951,
+          "remainingJobs": 485441,
+          "records": null,
+          "metadata": 5921,
+          "papers": 5032
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5635,
+          "remainingJobs": 14267,
+          "records": 1452574,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T20:31:31.240Z",
+      "phase": "recovering",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 72065,
+          "remainingJobs": 72236,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50778,
+          "remainingJobs": 161444,
+          "records": null,
+          "metadata": 72739,
+          "papers": 1325
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 156714,
+          "remainingJobs": 486605,
+          "records": null,
+          "metadata": 5925,
+          "papers": 5035
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5685,
+          "remainingJobs": 14217,
+          "records": 1468425,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T20:41:31.702Z",
+      "phase": "recovering",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 72065,
+          "remainingJobs": 72236,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50778,
+          "remainingJobs": 161444,
+          "records": null,
+          "metadata": 72739,
+          "papers": 1325
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 156714,
+          "remainingJobs": 486605,
+          "records": null,
+          "metadata": 5925,
+          "papers": 5035
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5685,
+          "remainingJobs": 14217,
+          "records": 1468425,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T20:51:32.374Z",
+      "phase": "recovering",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 72065,
+          "remainingJobs": 72236,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50778,
+          "remainingJobs": 161444,
+          "records": null,
+          "metadata": 72739,
+          "papers": 1325
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 156714,
+          "remainingJobs": 486605,
+          "records": null,
+          "metadata": 5925,
+          "papers": 5035
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5685,
+          "remainingJobs": 14217,
+          "records": 1468425,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T21:01:32.767Z",
+      "phase": "recovering",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 72065,
+          "remainingJobs": 72236,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 50778,
+          "remainingJobs": 161444,
+          "records": null,
+          "metadata": 72739,
+          "papers": 1325
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 156714,
+          "remainingJobs": 486605,
+          "records": null,
+          "metadata": 5925,
+          "papers": 5035
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5685,
+          "remainingJobs": 14217,
+          "records": 1468425,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T21:11:50.482Z",
+      "phase": "collecting",
+      "productiveRps30s": 12.933333333333334,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 72460,
+          "remainingJobs": 71841,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 51011,
+          "remainingJobs": 181984,
+          "records": null,
+          "metadata": 72786,
+          "papers": 1326
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 156920,
+          "remainingJobs": 486854,
+          "records": null,
+          "metadata": 5949,
+          "papers": 5050
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5736,
+          "remainingJobs": 14166,
+          "records": 1478513,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T21:14:15.280Z",
+      "phase": "unknown",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 72692,
+          "remainingJobs": 71609,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 51149,
+          "remainingJobs": 182892,
+          "records": null,
+          "metadata": 72787,
+          "papers": 1326
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 157067,
+          "remainingJobs": 487022,
+          "records": null,
+          "metadata": 5950,
+          "papers": 5050
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5757,
+          "remainingJobs": 14145,
+          "records": 1482825,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T21:24:23.954Z",
+      "phase": "stopped",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 72692,
+          "remainingJobs": 71609,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 51149,
+          "remainingJobs": 182892,
+          "records": null,
+          "metadata": 72787,
+          "papers": 1326
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 157067,
+          "remainingJobs": 487022,
+          "records": null,
+          "metadata": 5950,
+          "papers": 5050
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5757,
+          "remainingJobs": 14145,
+          "records": 1482825,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T21:34:53.742Z",
+      "phase": "stopped",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 72692,
+          "remainingJobs": 71609,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 51149,
+          "remainingJobs": 182892,
+          "records": null,
+          "metadata": 72787,
+          "papers": 1326
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 157067,
+          "remainingJobs": 487022,
+          "records": null,
+          "metadata": 5950,
+          "papers": 5050
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5757,
+          "remainingJobs": 14145,
+          "records": 1482825,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T21:48:16.112Z",
+      "phase": "stopped",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 72692,
+          "remainingJobs": 71609,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 51149,
+          "remainingJobs": 182892,
+          "records": null,
+          "metadata": 72787,
+          "papers": 1326
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 157067,
+          "remainingJobs": 487022,
+          "records": null,
+          "metadata": 5950,
+          "papers": 5050
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5757,
+          "remainingJobs": 14145,
+          "records": 1482825,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T21:52:28.257Z",
+      "phase": "stopped",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 72692,
+          "remainingJobs": 71609,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 51149,
+          "remainingJobs": 182892,
+          "records": null,
+          "metadata": 72787,
+          "papers": 1326
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 157067,
+          "remainingJobs": 487022,
+          "records": null,
+          "metadata": 5950,
+          "papers": 5050
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5757,
+          "remainingJobs": 14145,
+          "records": 1482825,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T22:02:47.037Z",
+      "phase": "unknown",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 72692,
+          "remainingJobs": 71609,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 51149,
+          "remainingJobs": 182892,
+          "records": null,
+          "metadata": 72787,
+          "papers": 1326
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 157067,
+          "remainingJobs": 487022,
+          "records": null,
+          "metadata": 5950,
+          "papers": 5050
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5757,
+          "remainingJobs": 14145,
+          "records": 1482825,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T22:13:01.486Z",
+      "phase": "stopped",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 72692,
+          "remainingJobs": 71609,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 51149,
+          "remainingJobs": 182892,
+          "records": null,
+          "metadata": 72787,
+          "papers": 1326
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 157067,
+          "remainingJobs": 487022,
+          "records": null,
+          "metadata": 5950,
+          "papers": 5050
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5757,
+          "remainingJobs": 14145,
+          "records": 1482825,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T22:23:20.482Z",
+      "phase": "unknown",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 72692,
+          "remainingJobs": 71609,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 51149,
+          "remainingJobs": 182892,
+          "records": null,
+          "metadata": 72787,
+          "papers": 1326
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 157067,
+          "remainingJobs": 487022,
+          "records": null,
+          "metadata": 5950,
+          "papers": 5050
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5757,
+          "remainingJobs": 14145,
+          "records": 1482825,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T22:33:23.248Z",
+      "phase": "unknown",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 72692,
+          "remainingJobs": 71609,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 51149,
+          "remainingJobs": 182892,
+          "records": null,
+          "metadata": 72787,
+          "papers": 1326
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 157067,
+          "remainingJobs": 487022,
+          "records": null,
+          "metadata": 5950,
+          "papers": 5050
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5757,
+          "remainingJobs": 14145,
+          "records": 1482825,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T22:43:29.741Z",
+      "phase": "recovering",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 72692,
+          "remainingJobs": 71609,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 51149,
+          "remainingJobs": 182892,
+          "records": null,
+          "metadata": 72787,
+          "papers": 1326
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 157067,
+          "remainingJobs": 487022,
+          "records": null,
+          "metadata": 5950,
+          "papers": 5050
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5757,
+          "remainingJobs": 14145,
+          "records": 1482825,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T22:53:54.767Z",
+      "phase": "recovering",
+      "productiveRps30s": null,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 72692,
+          "remainingJobs": 71609,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 51149,
+          "remainingJobs": 182892,
+          "records": null,
+          "metadata": 72787,
+          "papers": 1326
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 157067,
+          "remainingJobs": 487022,
+          "records": null,
+          "metadata": 5950,
+          "papers": 5050
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5757,
+          "remainingJobs": 14145,
+          "records": 1482825,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T23:01:58.896Z",
+      "phase": "collecting",
+      "productiveRps30s": 12.733333333333333,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 73083,
+          "remainingJobs": 71218,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 51338,
+          "remainingJobs": 184503,
+          "records": null,
+          "metadata": 72808,
+          "papers": 1329
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 157413,
+          "remainingJobs": 487160,
+          "records": null,
+          "metadata": 5982,
+          "papers": 5069
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5777,
+          "remainingJobs": 14125,
+          "records": 1490518,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T23:11:59.927Z",
+      "phase": "collecting",
+      "productiveRps30s": 6.3,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 74293,
+          "remainingJobs": 70008,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 51854,
+          "remainingJobs": 188675,
+          "records": null,
+          "metadata": 72818,
+          "papers": 1340
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 158248,
+          "remainingJobs": 487386,
+          "records": null,
+          "metadata": 6018,
+          "papers": 5082
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5829,
+          "remainingJobs": 14073,
+          "records": 1508436,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T23:22:01.299Z",
+      "phase": "collecting",
+      "productiveRps30s": 8.366666666666667,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 75283,
+          "remainingJobs": 69018,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 52520,
+          "remainingJobs": 192325,
+          "records": null,
+          "metadata": 72825,
+          "papers": 1341
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 159198,
+          "remainingJobs": 488459,
+          "records": null,
+          "metadata": 6042,
+          "papers": 5101
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5905,
+          "remainingJobs": 13997,
+          "records": 1529013,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T23:31:52.979Z",
+      "phase": "collecting",
+      "productiveRps30s": 6.1,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 76593,
+          "remainingJobs": 67708,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 53215,
+          "remainingJobs": 197086,
+          "records": null,
+          "metadata": 72833,
+          "papers": 1342
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 159710,
+          "remainingJobs": 489425,
+          "records": null,
+          "metadata": 6064,
+          "papers": 5125
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 5964,
+          "remainingJobs": 13938,
+          "records": 1545972,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T23:41:59.044Z",
+      "phase": "collecting",
+      "productiveRps30s": 12.566666666666666,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 77846,
+          "remainingJobs": 66455,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 53947,
+          "remainingJobs": 200335,
+          "records": null,
+          "metadata": 72851,
+          "papers": 1346
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 160686,
+          "remainingJobs": 490348,
+          "records": null,
+          "metadata": 6089,
+          "papers": 5144
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 6040,
+          "remainingJobs": 13862,
+          "records": 1564508,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-14T23:52:09.947Z",
+      "phase": "collecting",
+      "productiveRps30s": 10.733333333333333,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 78901,
+          "remainingJobs": 65400,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 54500,
+          "remainingJobs": 202486,
+          "records": null,
+          "metadata": 72860,
+          "papers": 1349
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 161482,
+          "remainingJobs": 490813,
+          "records": null,
+          "metadata": 6103,
+          "papers": 5160
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 6115,
+          "remainingJobs": 13787,
+          "records": 1582785,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-15T00:02:06.793Z",
+      "phase": "collecting",
+      "productiveRps30s": 4.733333333333333,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 79555,
+          "remainingJobs": 64746,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 55005,
+          "remainingJobs": 205564,
+          "records": null,
+          "metadata": 72861,
+          "papers": 1350
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 161985,
+          "remainingJobs": 491651,
+          "records": null,
+          "metadata": 6112,
+          "papers": 5166
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 6167,
+          "remainingJobs": 13735,
+          "records": 1596313,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-15T00:12:09.872Z",
+      "phase": "collecting",
+      "productiveRps30s": 14.833333333333334,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 80501,
+          "remainingJobs": 63800,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 55490,
+          "remainingJobs": 208272,
+          "records": null,
+          "metadata": 72867,
+          "papers": 1350
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 162530,
+          "remainingJobs": 492572,
+          "records": null,
+          "metadata": 6123,
+          "papers": 5174
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 6227,
+          "remainingJobs": 13675,
+          "records": 1612120,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-15T00:22:10.146Z",
+      "phase": "collecting",
+      "productiveRps30s": 9.633333333333333,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 81716,
+          "remainingJobs": 62585,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 56189,
+          "remainingJobs": 212105,
+          "records": null,
+          "metadata": 72877,
+          "papers": 1351
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 163599,
+          "remainingJobs": 493229,
+          "records": null,
+          "metadata": 6141,
+          "papers": 5189
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 6315,
+          "remainingJobs": 13587,
+          "records": 1635654,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-15T00:32:29.897Z",
+      "phase": "collecting",
+      "productiveRps30s": 7.033333333333333,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 82670,
+          "remainingJobs": 61631,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 56786,
+          "remainingJobs": 215272,
+          "records": null,
+          "metadata": 72884,
+          "papers": 1352
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 164123,
+          "remainingJobs": 493902,
+          "records": null,
+          "metadata": 6158,
+          "papers": 5204
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 6388,
+          "remainingJobs": 13514,
+          "records": 1658297,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    },
+    {
+      "at": "2026-09-15T00:42:39.868Z",
+      "phase": "collecting",
+      "productiveRps30s": 9.4,
+      "datasets": [
+        {
+          "id": "videos",
+          "completeJobs": 152303,
+          "remainingJobs": 0,
+          "records": 4886412,
+          "metadata": 4886412,
+          "papers": null
+        },
+        {
+          "id": "documents",
+          "completeJobs": 284714,
+          "remainingJobs": 12,
+          "records": 6202155,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "DppVideos",
+          "completeJobs": 152300,
+          "remainingJobs": 10,
+          "records": 180091,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "programmes",
+          "completeJobs": 83778,
+          "remainingJobs": 60523,
+          "records": 546353,
+          "metadata": null,
+          "papers": null
+        },
+        {
+          "id": "tests",
+          "completeJobs": 57462,
+          "remainingJobs": 218559,
+          "records": null,
+          "metadata": 72894,
+          "papers": 1359
+        },
+        {
+          "id": "DppQuiz",
+          "completeJobs": 164761,
+          "remainingJobs": 494778,
+          "records": null,
+          "metadata": 6179,
+          "papers": 5227
+        },
+        {
+          "id": "announcements",
+          "completeJobs": 6498,
+          "remainingJobs": 13404,
+          "records": 1679514,
+          "metadata": null,
+          "papers": null
+        }
+      ]
+    }
+  ]
+}
