@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "scope": "document-metadata",
+  "generatedAt": "2026-09-26T18:21:10.826Z",
+  "enabled": true,
+  "available": true,
+  "admissionMode": "full",
+  "admittedBatches": 19902,
+  "records": 6203189,
+  "placements": 6203918,
+  "completedBatches": 19896,
+  "totalBatches": 19902,
+  "completedSubjectChannels": 264816,
+  "attachmentReferences": 7575180,
+  "unresolvedAttachmentReferences": 7,
+  "blockedJobs": 2,
+  "activeJobs": 0,
+  "productiveRps30s": 0,
+  "archiveState": "not-transferred"
+}

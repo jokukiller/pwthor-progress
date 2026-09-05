@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#07110f">
+  <title>PWThor remaining work</title>
+  <link rel="stylesheet" href="styles.css?v=18817aa73562c514">
+</head>
+<body>
+  <a class="skip-link" href="#queues">Skip to remaining queues</a>
+  <main class="shell">
+    <header class="masthead">
+      <div>
+        <p class="eyebrow">PIRATEWALLAH · CATALOGUE OPERATIONS</p>
+        <h1>What remains</h1>
+        <p class="lede">All-metadata collection status, discovery gaps, and the work needed to finish.</p>
+      </div>
+      <div class="runtime-badge" id="runtime-badge" data-tone="neutral" role="status" aria-live="polite">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span id="runtime-label">Loading status</span>
+      </div>
+    </header>
+
+    <div id="refresh-notice" class="notice notice-error" role="alert" hidden>
+      <strong>Live refresh failed.</strong>
+      <span id="refresh-message">Showing the last valid publication.</span>
+    </div>
+    <div id="freshness-notice" class="notice notice-warning" role="status" hidden></div>
+
+    <section class="overview" aria-labelledby="overview-title">
+      <div class="section-heading overview-heading">
+        <div>
+          <p class="section-kicker">Known queue snapshot</p>
+          <h2 id="overview-title">Collection at a glance</h2>
+        </div>
+        <div class="timestamps">
+          <span>Observed <time id="observed-at">—</time></span>
+          <span>Published <time id="published-at">—</time></span>
+        </div>
+      </div>
+      <div class="metric-grid">
+        <article class="metric metric-primary">
+          <p>Known remaining jobs</p>
+          <strong id="remaining-jobs">—</strong>
+          <small id="remaining-context">Across available queues</small>
+        </article>
+        <article class="metric">
+          <p>Blocked / review</p>
+          <strong id="blocked-jobs">—</strong>
+          <small>Needs intervention or another attempt</small>
+        </article>
+        <article class="metric">
+          <p>Active now</p>
+          <strong id="active-jobs">—</strong>
+          <small id="active-context">Collector jobs in flight</small>
+        </article>
+        <article class="metric">
+          <p>All-metadata RPS</p>
+          <strong id="productive-rps">—</strong>
+          <small id="rps-context">30-second productive sample</small>
+        </article>
+      </div>
+      <div class="runtime-strip" aria-label="Runtime details">
+        <div><span>Mode</span><strong id="runtime-phase">—</strong></div>
+        <div><span>Transports</span><strong id="transport-counts">—</strong></div>
+        <div><span>Version</span><strong id="runtime-version">—</strong></div>
+        <div><span>Source hold</span><strong id="source-hold">—</strong></div>
+      </div>
+      <p class="cadence">Publication is prepared every 10 minutes. This page checks for a newer publication every 30 seconds.</p>
+    </section>
+
+    <section id="queues" class="queue-section" aria-labelledby="queues-title">
+      <div class="section-heading queue-heading">
+        <div>
+          <p class="section-kicker">Six metadata queues</p>
+          <h2 id="queues-title">Remaining collection work</h2>
+          <p id="queue-summary">Waiting for a valid queue snapshot.</p>
+        </div>
+        <div class="filter" role="group" aria-label="Filter dataset queues">
+          <button type="button" class="filter-button is-active" data-filter="remaining" aria-pressed="true">Remaining</button>
+          <button type="button" class="filter-button" data-filter="all" aria-pressed="false">All six</button>
+        </div>
+      </div>
+      <div id="queue-grid" class="queue-grid" aria-live="polite"></div>
+      <p id="filter-empty" class="empty-state" hidden>Every available non-video queue is marked complete. Use “All six” to inspect them.</p>
+    </section>
+
+    <div class="lower-grid">
+      <section class="panel" aria-labelledby="activity-title">
+        <div class="section-heading compact">
+          <div>
+            <p class="section-kicker">Observed change</p>
+            <h2 id="activity-title">Recent movement</h2>
+          </div>
+          <span id="history-window" class="quiet-label">—</span>
+        </div>
+        <div id="history-content" class="history-content">
+          <p class="measuring">Pace is being measured. Recent deltas will appear after another valid sample.</p>
+        </div>
+        <p class="eta-note" id="eta-note">No final ETA is shown while discovery, source holds, or coverage gaps can change the known queue.</p>
+      </section>
+
+      <section class="panel" aria-labelledby="attention-title">
+        <div class="section-heading compact">
+          <div>
+            <p class="section-kicker">Scope and recovery</p>
+            <h2 id="attention-title">Needs attention</h2>
+          </div>
+        </div>
+        <div id="coverage-list" class="attention-list"></div>
+        <div class="backup-row">
+          <span>Metadata backup</span>
+          <strong id="backup-status">—</strong>
+          <small id="backup-detail">Awaiting status</small>
+        </div>
+      </section>
+    </div>
+
+    <section class="panel finish-panel" aria-labelledby="finish-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Definition of done</p>
+          <h2 id="finish-title">Finish checklist</h2>
+        </div>
+        <p class="finish-caption">Queue counts are not a percentage of this checklist.</p>
+      </div>
+      <ol id="finish-list" class="finish-list"></ol>
+      <p class="media-note"><strong>Separate work:</strong> PDF and media file transfer is tracked independently and is excluded from these metadata counts.</p>
+    </section>
+
+    <section id="video-section" class="video-panel" aria-labelledby="video-title">
+      <div>
+        <p class="section-kicker">Quieter catalogue queue</p>
+        <h2 id="video-title">Video metadata</h2>
+      </div>
+      <div id="video-content" class="video-content"><span>Awaiting status</span></div>
+    </section>
+
+    <section id="updates-section" class="updates" aria-labelledby="updates-title" hidden>
+      <h2 id="updates-title">Collector changes under observation</h2>
+      <ul id="updates-list"></ul>
+    </section>
+
+    <footer>
+      <p>Only aggregate operational counts are published. Unknown and unavailable values remain visibly unknown.</p>
+    </footer>
+  </main>
+  <noscript><p class="noscript">JavaScript is required to load the published status snapshot.</p></noscript>
+  <script type="module" src="app.js?v=f4945e803ed739ec"></script>
+</body>
+</html>

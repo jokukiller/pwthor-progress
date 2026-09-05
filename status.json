@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "scope": "video-metadata",
+  "generatedAt": "2026-09-26T18:21:10.826Z",
+  "serviceState": "active",
+  "batches": {
+    "total": 19902,
+    "complete": 19902,
+    "remaining": 0,
+    "blockedJobs": 0
+  },
+  "data": {
+    "assets": 4886412,
+    "placements": 4886814,
+    "completedSubjects": 132401
+  },
+  "performance": {
+    "productiveRps30s": 0,
+    "productiveRpsAverage": 0,
+    "commitsPerSecond": 0
+  },
+  "proxies": {
+    "candidates": 42986,
+    "qualifiedAvailable": 361,
+    "active": 4,
+    "activeTransports": 4,
+    "qualifying": 144
+  },
+  "backup": {
+    "mode": "upload-acknowledged",
+    "status": "healthy",
+    "verifiedAt": null,
+    "uploadedAt": "2026-09-26T17:04:54.978373+00:00",
+    "captureStartedAt": "2026-09-26T16:33:32.070830+00:00",
+    "destinations": 1
+  }
+}
